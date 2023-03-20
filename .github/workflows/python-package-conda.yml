@@ -1,6 +1,7 @@
 name: Python Package using Conda
 
-on: [push]
+on: 
+     schedule: '0 */1 * * *'
 
 jobs:
   build-linux:
